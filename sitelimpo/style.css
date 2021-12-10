@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.textos, .main {
+    background-image: url('background.jpg');
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #ffffff;
+}
+
+.logo h2 {
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+    font-family: 'Michroma', sans-serif;
+    letter-spacing: none;
+    font-size: 25px;
+    text-shadow: black 5px 3px;
+}
+
+.main {
+    border: solid 1px rgb(0, 177, 177);
+    border-top: 0.5px;
+    display: flex;
+    text-align: right;
+    padding-left: 150px;
+}
+
+.menu a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 3px 30px;
+    font-weight: bold;
+    font-size: 12px;
+    transition: 1s;
+    color: white;
+    text-shadow: black 2px 1px;
+}
+
+.menu {
+    text-align: right;
+    width: 80%;
+    margin: 5px 12px;
+}
+
+.menu .button {
+    background-color: rgb(17, 126, 126);
+    color: white;
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 8px;
+}
+
+.menu .button:hover {
+    background-color: rgb(0, 168, 168);
+    color: white;
+
+}
+
+.menu a:hover {
+    background-color: rgb(0, 168, 168);
+    color: white;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 2px 10px;
+}
+
+.textos {
+    text-align: center;
+    padding-top: 90px;
+    color: white;
+}
+
+.caixas {
+    padding-top: 200px;
+    display: flex;
+}
+
+.diferenciais h2 {
+    font-size: 40px;
+}
+
+.diferenciais {
+    background-color: rgba(0, 255, 255, 0.090);
+    width: 23%;
+    margin: 2%;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 0.4s;
+    border-radius: 8px;
+    padding: 2px 10px;
+}
+
+.central h2 {
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: black 5px 3px;
+}
+
+.central p {
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: black 2px 3px;
+}
+
+.caixas .diferenciais:hover {
+    background-color: rgb(0, 168, 168);
+    color: white;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 2px 10px;
+}
+
+.text {
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.about {
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+
+.p1 {
+    flex-direction: row;
+    justify-content: center;
+    width: 30%; 
+    margin: 1%;
+}
+
+.p2 {
+    flex-direction: row;
+    justify-content: center;
+    width: 30%; 
+    margin: 1%;
+}
+
+.p1 i{
+    color: rgb(0, 183, 255);
+}
+
+.p2 .botao1 {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    padding: 8px 10px;
+    border: solid rgb(0, 192, 192);
+    border-radius: 8px;
+    font-weight: bolder;
+    font-family: 'Michroma', sans-serif;
+}
+
+.p2 .botao1:hover {
+    background-color: rgba(0, 255, 255, 0.158);
+    color: rgb(0, 0, 0);
+}
+
+.projetos {
+    background-image: url('background2.jpg');
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #ffffff;
+}
+
+.principal {
+    text-align: center;
+    padding-top: 200px;
+    color: black;
+    font-weight: bold;
+}
+
+.principal h2 {
+    font-size: 50px;
+}
+
+.principal p {
+    font-size: 20px;
+    padding-bottom: 100px;
+}
+
+.projects {
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects .proj {
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.685);
+    width: 23%;
+    margin: 2%;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 0.4s;
+    border-radius: 8px;
+    padding: 2px 10px;
+    font-weight: bolder;
+}
